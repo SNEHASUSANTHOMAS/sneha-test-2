@@ -113,6 +113,9 @@ display: none;
   font-size: 12px;
   font-weight: 300;
 }
+.nav-item .home{
+  color: white;
+}
 .nav-item a{
   display: inline-block;
   color: rgba(255, 255, 255, 0.63);
@@ -409,7 +412,7 @@ background-color: #dd783f;
   display: flex;
   justify-content: center;
 }
-input{
+.home-input{
   font-family: 'Lora';
   font-size:15px;
   padding: 8px 12px;
@@ -473,7 +476,7 @@ input{
     position: relative;
     padding: 0;
   }
-  .logo-wrapper{
+  .top-logo-wrapper{
     position: absolute;
     left: 20px;
     top: 10px;
@@ -489,7 +492,7 @@ input{
     cursor: pointer;
     color:  rgba(255, 255, 255, 0.63);;
     } 
-  
+   
   .top-nav-items.show {
     opacity: 1;
    display: flex;
@@ -538,7 +541,7 @@ input{
     flex-direction: column;
     padding: 10px;
   }
-  input{
+ .home-input{
     width: 100%;
     margin-bottom: 5px;
   }
